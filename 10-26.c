@@ -1,5 +1,5 @@
 #include<stdio.h>
-main()
+int main()
 {
 	const int MINOR=35;
 	
@@ -15,6 +15,5 @@ main()
 	if(age>=MINOR){
 		printf("年龄决定了你的精神世界，好好珍惜吧。\n");
 	}
-	getch();
 	return 0;
  } 
