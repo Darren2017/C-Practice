@@ -1,16 +1,18 @@
 #include<stdio.h>
 
+#define NUMBER 80
+
 int main()
 {
     int i,j;
     int num;            /*实际学生人数*/  
-    int gola[80];   /*各学生分数*/
+    int gola[NUMBER];   /*各学生分数*/
     int line[11]={0};   /*分布图各行数的人数*/
     puts("请输入学生人数：");
     do{
         scanf("%d",&num);
         if(num<=0||num>80){
-                            printf("请输入1～80的数");   
+                            printf("请输入1～%d的数",NUMBER);   
         }
     }while(num<=0||num>80);
     for(i=0;i<num;i++){
