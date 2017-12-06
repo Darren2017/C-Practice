@@ -1,3 +1,4 @@
+/*辗转相处法求最大公约数*/
 #include<stdio.h>
 
 int gcd(int a,int b)
