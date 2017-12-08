@@ -1,3 +1,4 @@
+/*逆向显示字符串*/
 #include<stdio.h>
 
 void put_atringr(const char a[])
