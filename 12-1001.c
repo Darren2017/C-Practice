@@ -17,7 +17,7 @@ int main()
     char cs[NUMBER][LENGTH];
     int i = 0;
     while(1){
-        scanf("%s", cs[i]);
+        scanf(" %s ", cs[i]);
         if(!strcmp( cs[i], "$$$$$")){           /*当cs[i]==$$$$$时停止读取操作*/
             break;
         }else{
