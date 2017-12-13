@@ -1,3 +1,4 @@
+/*显示后一天的日期*/
 #include<stdio.h>
 
 void decrement_date(int *y, int *m, int *d)
