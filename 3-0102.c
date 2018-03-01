@@ -1,3 +1,4 @@
+/*删除字符串中的数字  目的同12-0901.c 方式不同*/
 #include<stdio.h>
 
 void del_digit(char s[]){
